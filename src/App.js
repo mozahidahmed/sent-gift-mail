@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './components/NavBar';
+import Video from './components/Video';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="px-12">
+     <NavBar/>
+ <Video></Video>
     </div>
   );
 }
